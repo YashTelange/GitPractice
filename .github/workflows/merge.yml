@@ -1,0 +1,12 @@
+name: Merge Workflow
+
+on:
+  push:
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Success Message
+        run: echo "Workflow completed successfully!"
